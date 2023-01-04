@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lista de Productos - Nintent</title>
+    <link rel="shortcut icon" type=image/jpg href="../assets/img/images/favicon.ico"/>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/custom-bootstrap.css">
+</head>
+
+<body>    
+
+
+    <header class="d-flex flex-wrap justify-content-center py-4 mb-4 border-bottom navbar" id="header">
+        <div class="container">
+        <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">   
+            <img src="../assets/img/logo.png" id="logo"><p id="letralogo">Nintent</p>
+        </a>
+                
+        <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item link-success"><a  class="nav-link rounded-0 link-success mx-2" aria-current="page"></a></li>
+            <li class="nav-item link-success"><a  class="nav-link rounded-0 link-success mx-2" aria-current="page"></a></li>
+            <li class="nav-item link-success"><a href="index.html" class="nav-link rounded-0 link-success mx-2" aria-current="page">Salir</a></li>
+        </ul>
+        </div>
+    </header> 
+
+
+
+  <div class="container my-5">
+  <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 shadow-lg">
+    <div class="col-lg-7 p-3 p-lg-5 pt-lg-3 mb-3">
+      <h2 class="display-4 fw-bold lh-1 d-flex justify-content-start d-sm-block d-xl-block d-none">Administración</h2>
+      <h2 class="display-4 fw-bold lh-1 d-flex justify-content-start d-sm-none">Granero</h2>
+      <h2 class="display-4 fw-bold lh-1 d-flex justify-content-start d-sm-none">Del Mundo</h2>
+    </div>
+    <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+        <img class="rounded-lg-3" src="../assets/img/banners/hero.jpg" height="400" width="720">
+    </div>
+  </div>
+</div>
+
+    <h1 class="d-flex justify-content-center">Editar Productos</h1>
+    <main class="container">
+        <table class=" table carte">
+            <thead>
+                <tr>
+                    <td class="col-4">Producto</td>
+                    <td class="col-2"></td>
+                    <td class="col-2"></td>
+                    <td class="col-2"></td>                            
+                    <td class="col-2"></td>                            
+                </tr>
+            </thead>
+            <tbody data-body>
+
+            </tbody>
+        </table>
+
+
+        <div class="d-grid gap-0 col-6 mx-auto">
+            <a href="./registrar_producto.html" class="btn btn-success rounded-0 d-block m-2">Agrega Nuevo Producto</a> 
+        </div>
+    </main>
+
+    
+    <!-- footer -->
+    <div class="container border-success border-top mt-4">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-12 col-md-2 mb-3">
+            <h3 class="d-flex justify-content-center">Soluciones</h3>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2 d-grid mx-auto"><a href="#" class="nav-link p-0 text-muted">Consolas</a></li>
+              <li class="nav-item mb-2 d-grid mx-auto"><a href="#" class="nav-link p-0 text-muted">Controles</a></li>
+              <li class="nav-item mb-2 d-grid mx-auto"><a href="#" class="nav-link p-0 text-muted">Distribución</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-12 col-md-2 mb-3">
+            <h3 class="d-flex justify-content-center">Asesorías</h3>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2 d-grid mx-auto"><a href="#" class="nav-link p-0 text-muted">Información</a></li>
+              <li class="nav-item mb-2 d-grid mx-auto"><a href="#" class="nav-link p-0 text-muted">Detalles</a></li>
+              <li class="nav-item mb-2 d-grid mx-auto"><a href="#" class="nav-link p-0 text-muted">Servicios</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-12 col-md-2 mb-3">
+            <h3 class="d-flex justify-content-center">Accesorios</h3>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2 d-grid mx-auto"><a href="#" class="nav-link p-0 text-muted">Herramientas</a></li>
+              <li class="nav-item mb-2 d-grid mx-auto"><a href="#" class="nav-link p-0 text-muted">Planificación</a></li>
+              <li class="nav-item mb-2 d-grid mx-auto"><a href="#" class="nav-link p-0 text-muted">Gestión</a></li>
+            </ul>
+          </div>
+          <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                  <h5>Suscribete a nosotros.</h5>
+                  <div class="d-flex flex-column flex-sm-row w-100 gap-2 d-flex justify-content-center">
+                      <label for="newsletter1" class="visually-hidden">Correo Electrónico</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Correo Electrónico">
+                      <button class="btn btn-success rounded-0" type="button">Suscribe</button>
+                  </div>
+              </form>
+              <div class="col-12 col-md-2 mt-3">
+                  <img class="d-grid mx-auto" src="../assets/img/logo.png" alt="logo ">
+              </div>
+          </div>
+      </div>
+      
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 mt-4 border-top border-success border-top">
+          <p class="d-flex justify-content-center">&copy; 2022 | Kef</p>
+          <p class="d-flex justify-content-center">Todos Los Derechos Reservados</p>
+        </div>
+      </footer>
+    </div>
+
+
+    <script type="module" src="../controllers/client.controller.js"></script>
+    
+
+      
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
+

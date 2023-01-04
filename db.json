@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "nombre": "Orquídea",
+      "description": "Bulbo en Buen Estado",
+      "precio": "3000",
+      "stars": "../assets/img/3estrellas.png",
+      "photo": "../assets/img/products/orquideas2.jpg",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "nombre": "Orquídea Yellow",
+      "description": "Genial Yellow",
+      "precio": "4000",
+      "stars": "../assets/img/4estrellas.png",
+      "photo": "../assets/img/products/orquideas4.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Orquídea Violet",
+      "description": "Genial Violet",
+      "precio": "5000",
+      "stars": "../assets/img/3estrellas.png",
+      "photo": "../assets/img/products/orquideas5.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Orquídea Orange",
+      "description": "Genial Orange",
+      "precio": "6000",
+      "stars": "../assets/img/2estrellas.png",
+      "photo": "../assets/img/products/orquideas6.jpg"
+    },
+    {
+      "nombre": "Orquideas Yellow",
+      "description": "Genial",
+      "precio": "7000",
+      "stars": "../assets/img/2estrellas.png",
+      "photo": "../assets/img/products/orquideas5.jpg",
+      "id": "9a30fb32-faea-4f8f-a40d-775eb4b534f6"
+    },
+    {
+      "nombre": "Orquidea",
+      "description": "Bulbos",
+      "precio": "5000",
+      "stars": "../assets/img/4estrellas.png",
+      "photo": "../assets/img/products/orquideas1.jpg",
+      "id": "ac90a1eb-c675-43fc-a2f8-cc0cdba2279c"
+    },
+    {
+      "nombre": "Herramientas",
+      "description": "Herramientas",
+      "precio": "2000",
+      "stars": "../assets/img/5estrellas.png",
+      "photo": "../assets/img/products/herramientas1.jpg",
+      "id": "e2b93f09-5ed6-4cff-815e-0775ee9098f8"
+    },
+    {
+      "nombre": "Orquídea Red",
+      "description": "Genial Red",
+      "precio": "30001",
+      "stars": "../assets/img/5estrellas.png",
+      "photo": "../assets/img/products/narciso3.jpg",
+      "id": "5753dda5-8be3-44b9-9842-4fc0733363cf"
+    }
+  ]
+}
